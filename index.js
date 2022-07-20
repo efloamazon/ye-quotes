@@ -28,7 +28,7 @@ const URL = "https://api.kanye.rest/"
 // GET /ye_quotes
 // localhost:3000/ye_quotes
 // <SERVERNAME>.<METHODNAME>(<PATHNAME>, <CALLBACK FUNCTION>)
-app.get("/ye_quotes", (req, res, next)=>{
+app.get("/", (req, res, next)=>{
     console.log("middelware hit")
     next()
 },
