@@ -53,15 +53,5 @@ app.get("/", (req, res,) => {
     res.send("hello Eric");
 });
 
-//PUT
-// app.put()
-
-// //DELETE
-// app.delete()
-
-// //POST
-// app.post()
-
-
 
 ;
